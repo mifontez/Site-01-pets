@@ -1,0 +1,122 @@
+body {
+    background-color: #9c9d9e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 14px;
+    color: green;
+    padding: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.icon-container {
+    text-align: center;
+    font-size: 13px;
+}
+
+footer {
+    background-color: #3f0808de;
+    color: #fff;
+    padding: 90px 0;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.container {
+    max-width: 390px;
+    margin: 0 auto;
+    display: flex;
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    scrollbar-width: thin; 
+    scrollbar-color: #333 #ddd;
+    align-items: center; 
+}
+
+.container::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; 
+}
+
+.container::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.container img:hover {
+    transform: translateX(-10px);
+}
+
+.texto {
+    color: cyan;
+    font-size: 14px;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.message {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.Aumander, .Xita, .Noruel, .Zendaya, .Karim {
+    color: rgba(0, 255, 255, 0.473);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.descricao {
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.ol {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.search-bar {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
